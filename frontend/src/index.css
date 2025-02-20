@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.nav-link {
+  @apply text-white text-lg font-medium hover:text-yellow-300 transition duration-300;
+}
+
+.mobile-link {
+  @apply block py-2 text-gray-700 text-lg font-medium hover:bg-gray-200 transition duration-300;
+}
